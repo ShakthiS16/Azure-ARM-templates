@@ -362,7 +362,7 @@
         "metadata": {
           "description": "IMPORTANT: You can use this parameter for the test purpose only as AAD Join is public preview. True if AAD Join, false if AD join"
         },
-        "defaultValue": false
+        "defaultValue": true
       },
       "intune": {
         "type": "bool",
