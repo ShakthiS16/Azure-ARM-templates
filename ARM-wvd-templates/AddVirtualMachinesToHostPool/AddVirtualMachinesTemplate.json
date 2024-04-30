@@ -383,7 +383,7 @@
       "identity": {
         "type": "string",
         "metadata": {
-          "description": "The name of user assigned identity that will assigned to the VMs. This is an optional parameter."
+          "description": "Type of the identity that will assigned to the VMs. This is an optional parameter."
         },
         "defaultValue": ""
       },
