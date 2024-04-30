@@ -387,6 +387,13 @@
         },
         "defaultValue": ""
       },
+      "resourceidentitytype": {
+        "type": "string",
+        "metadata": {
+          "description": "Type of the identity that will assigned to the VMs. This is an optional parameter."
+        },
+        "defaultValue": "systemassigned"
+      }, 
       "customConfigurationTemplateUrl": {
         "type": "string",
         "metadata": {
@@ -645,6 +652,9 @@
             },
             "identity": {
               "value": "[parameters('identity')]"
+            },
+            "resourceidentitytype": {
+              "value": "[parameters('resourceidentitytype')]"
             },
             "customConfigurationTemplateUrl": {
               "value": "[parameters('customConfigurationTemplateUrl')]"
