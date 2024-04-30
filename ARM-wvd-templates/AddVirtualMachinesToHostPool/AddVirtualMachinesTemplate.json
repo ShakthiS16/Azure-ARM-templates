@@ -380,7 +380,7 @@
           "enabled": false
         }
       },
-      "userAssignedIdentity": {
+      "Identity": {
         "type": "string",
         "metadata": {
           "description": "The name of user assigned identity that will assigned to the VMs. This is an optional parameter."
@@ -643,8 +643,8 @@
             "_guidValue": {
               "value": "[parameters('deploymentId')]"
             },
-            "userAssignedIdentity": {
-              "value": "[parameters('userAssignedIdentity')]"
+            "Identity": {
+              "value": "[parameters('Identity')]"
             },
             "customConfigurationTemplateUrl": {
               "value": "[parameters('customConfigurationTemplateUrl')]"
